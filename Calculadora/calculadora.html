@@ -1,0 +1,51 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css.css">
+    <script defer src="JavaScript/js.js"></script>
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <div class="pagina">
+        <div class="itens">
+            <h1 class="title">Calculadora</h1>
+            <input type="text" class="box1" id="valorsoma1"/>
+            <input type="text" class="box1" id="valorsoma2"/>
+            <button onclick="somar()"class="calculo">+</button> 
+            =
+            <input type="text" class="box2" placeholder= Resultado readonly id="resultado1"/> 
+
+            <button onclick="limpar1()"class="limpar">Limpar</button>
+            <br>
+            <input type="text" class="box1" id="valorsub1"/>
+            <input type="text" class="box1" id="valorsub2"/>
+
+            <button onclick="subtrair()" class="calculo">-</button> 
+            =
+            <input type="text" class="box2" placeholder= Resultado readonly id="resultado2"/> 
+
+            <button onclick="limpar2()" class="limpar">Limpar</button>
+            <br>
+            <input type="text" class="box1" id="valormulti1"/>
+            <input type="text" class="box1" id="valormulti2"/>
+
+            <button onclick="multiplicar()" class="calculo">*</button> 
+            =
+            <input type="text" class="box2" placeholder= Resultado readonly id="resultado3"/> 
+
+            <button onclick="limpar3()"class="limpar">Limpar</button>
+            <br>
+            <input type="text" class="box1" id="valordiv1"/>
+            <input type="text" class="box1" id="valordiv2"/>
+
+            <button onclick="dividir()" class="calculo">/</button> 
+            =
+            <input type="text" class="box2" placeholder= Resultado readonly id="resultado4"/> 
+
+            <button onclick="limpar4()"class="limpar">Limpar</button>
+        </div>
+    </div>
+
+</body>
+</html>
